@@ -7,11 +7,23 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5B3687091EE698E0005F3152 /* CAPSPageMenu+Options.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B3687031EE698E0005F3152 /* CAPSPageMenu+Options.swift */; };
+		5B36870A1EE698E0005F3152 /* CAPSPageMenu+UIConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B3687041EE698E0005F3152 /* CAPSPageMenu+UIConfiguration.swift */; };
+		5B36870B1EE698E0005F3152 /* CAPSPageMenu+UIGestureRecognizerDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B3687051EE698E0005F3152 /* CAPSPageMenu+UIGestureRecognizerDelegate.swift */; };
+		5B36870C1EE698E0005F3152 /* CAPSPageMenu+UIScrollViewDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B3687061EE698E0005F3152 /* CAPSPageMenu+UIScrollViewDelegate.swift */; };
+		5B36870D1EE698E0005F3152 /* CAPSPageMenuConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B3687071EE698E0005F3152 /* CAPSPageMenuConfiguration.swift */; };
+		5B36870E1EE698E0005F3152 /* MenuItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B3687081EE698E0005F3152 /* MenuItemView.swift */; };
 		C797E14E1BAB764400D2808F /* PageMenuFramework.h in Headers */ = {isa = PBXBuildFile; fileRef = C797E14D1BAB764400D2808F /* PageMenuFramework.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		C797E1581BAB765100D2808F /* CAPSPageMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = C797E1441BAB754600D2808F /* CAPSPageMenu.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		5B3687031EE698E0005F3152 /* CAPSPageMenu+Options.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CAPSPageMenu+Options.swift"; sourceTree = "<group>"; };
+		5B3687041EE698E0005F3152 /* CAPSPageMenu+UIConfiguration.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CAPSPageMenu+UIConfiguration.swift"; sourceTree = "<group>"; };
+		5B3687051EE698E0005F3152 /* CAPSPageMenu+UIGestureRecognizerDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CAPSPageMenu+UIGestureRecognizerDelegate.swift"; sourceTree = "<group>"; };
+		5B3687061EE698E0005F3152 /* CAPSPageMenu+UIScrollViewDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CAPSPageMenu+UIScrollViewDelegate.swift"; sourceTree = "<group>"; };
+		5B3687071EE698E0005F3152 /* CAPSPageMenuConfiguration.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CAPSPageMenuConfiguration.swift; sourceTree = "<group>"; };
+		5B3687081EE698E0005F3152 /* MenuItemView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuItemView.swift; sourceTree = "<group>"; };
 		C797E13D1BAB752600D2808F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C797E1441BAB754600D2808F /* CAPSPageMenu.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CAPSPageMenu.swift; sourceTree = "<group>"; };
 		C797E14B1BAB764400D2808F /* PageMenuFramework.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = PageMenuFramework.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -60,6 +72,12 @@
 			isa = PBXGroup;
 			children = (
 				C797E1441BAB754600D2808F /* CAPSPageMenu.swift */,
+				5B3687031EE698E0005F3152 /* CAPSPageMenu+Options.swift */,
+				5B3687041EE698E0005F3152 /* CAPSPageMenu+UIConfiguration.swift */,
+				5B3687051EE698E0005F3152 /* CAPSPageMenu+UIGestureRecognizerDelegate.swift */,
+				5B3687061EE698E0005F3152 /* CAPSPageMenu+UIScrollViewDelegate.swift */,
+				5B3687071EE698E0005F3152 /* CAPSPageMenuConfiguration.swift */,
+				5B3687081EE698E0005F3152 /* MenuItemView.swift */,
 			);
 			name = Classes;
 			path = ../../Classes;
@@ -155,6 +173,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				C797E1581BAB765100D2808F /* CAPSPageMenu.swift in Sources */,
+				5B36870B1EE698E0005F3152 /* CAPSPageMenu+UIGestureRecognizerDelegate.swift in Sources */,
+				5B36870A1EE698E0005F3152 /* CAPSPageMenu+UIConfiguration.swift in Sources */,
+				5B36870C1EE698E0005F3152 /* CAPSPageMenu+UIScrollViewDelegate.swift in Sources */,
+				5B36870E1EE698E0005F3152 /* MenuItemView.swift in Sources */,
+				5B3687091EE698E0005F3152 /* CAPSPageMenu+Options.swift in Sources */,
+				5B36870D1EE698E0005F3152 /* CAPSPageMenuConfiguration.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

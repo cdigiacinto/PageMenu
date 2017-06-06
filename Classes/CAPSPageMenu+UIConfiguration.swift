@@ -60,6 +60,8 @@ extension CAPSPageMenu {
                 configuration.centerMenuItems = value
             case let .hideTopMenuBar(value):
                 configuration.hideTopMenuBar = value
+            case let .enableScrollBetweenView(value):
+                configuration.enableScrollBetweenView = value
             }
         }
         
@@ -77,6 +79,8 @@ extension CAPSPageMenu {
         controllerScrollView.translatesAutoresizingMaskIntoConstraints = false
         controllerScrollView.alwaysBounceHorizontal = configuration.enableHorizontalBounce
         controllerScrollView.bounces = configuration.enableHorizontalBounce
+        
+        controllerScrollView.isScrollEnabled = configuration.enableScrollBetweenView
         
         controllerScrollView.frame = CGRect(x: 0.0, y: configuration.menuHeight, width: self.view.frame.width, height: self.view.frame.height - configuration.menuHeight)
         
